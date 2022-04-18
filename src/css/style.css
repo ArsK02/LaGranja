@@ -41,10 +41,7 @@ a {
 
 
 
-
-
-
-
+    
 /* HEADER */
 
 
@@ -76,7 +73,7 @@ a {
 /* 2 section */
 
 .logo__flex {
-    height: 108px;
+    height: 80px;
     background-color: #fff;
     
     padding-left: 25px;
@@ -146,6 +143,51 @@ a {
 
 
 
+
+
+
+/* FOOTER */
+
+.footer__wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    font-size: 15px;
+
+    background-color: #8bc34a;
+    
+}
+
+.footer__links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__links-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: left;
+    text-align: left;
+}
+
+.footer__links-links a {
+    padding-bottom: 15px;
+}
+
+.footer__links-both {
+    padding: 80px;
+}
+
+
+
+
+/* ////////////////////////////             MOBILE              ///////////////////////////////////*/
+
 @media only screen and (max-width: 1090px) { /* 768 */
 
     .top__flex {
@@ -156,8 +198,6 @@ a {
 
         align-items: center;
         text-align: center;
-
-        
     }
 
 
@@ -201,7 +241,78 @@ a {
         transform: translateY(-8px) rotate(-45deg);
     }
 
+    /* MAIN */
+
+    .logo__flex {
+        height: 108px;
+        align-items: center;
+        padding: 10px;
+    }
+
+
+
+  
 }
 
-/* MAIN */
+
+
+@media only screen and (max-width: 935px) {
+    
+      /* FOOTER */
+
+    .logo__photo {
+        padding: 30px;
+    }
+
+    .footer__wrap {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        
+    
+        font-size: 15px;
+    }
+    
+    .footer__links {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .footer__links-links {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: left;
+        text-align: left;
+    }
+    
+    .footer__links-links a {
+        padding-bottom: 15px;
+    }
+    
+    .footer__links-both {
+        padding: 80px;
+    }
+
+
+}
+
+@media only screen and (max-width: 740px) {
+    .footer__links {
+        flex-direction: column;
+        align-items: left;
+    }
+
+    .footer__links-links a {
+        padding-bottom: 0;
+    }
+    
+    .footer__links-both {
+        padding: 40px;
+    }
+}
+
+/* ////////////////////////              END MOBILE                        //////////////////////////// */
 
