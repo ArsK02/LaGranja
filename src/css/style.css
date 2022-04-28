@@ -407,7 +407,87 @@ img {
 
 
 
+/* SECTION WITH LEAF 3 */
 
+.sectionWithLeaf_3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    padding: 0;
+    margin: 0;
+}
+
+.sectionWithLeaf_3-h1 {
+    max-width: 780px;
+    font-size: 32px;
+
+    padding: 10px 10px 20px 10px;
+}
+
+.sectionWithLeaf_img3 {
+    padding: 10px 10px 30px 10px;
+}
+
+.sectionWithLeaf_p-3 {
+    font-size: 18px;
+    max-width: 640px;
+}
+
+
+
+
+/* PLANS */
+
+.plans {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 40px 20px;
+}
+
+.plansH1 {
+    font-size: 24px;
+}
+ 
+
+
+.plans_p {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    max-width: ;
+}
+
+.plans_pTwo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.plans_pH1 {
+    font-size: 40px;
+    color: #fff;
+    text-align: left;
+}
+
+.plans_pp {
+    font-size: 15px;
+    color: #4a320a;
+}
+
+.plans_pp-item {
+    padding: 10px;
+}
+
+
+
+.plans_p1 {
+    background-color: rgb(255, 193, 7);
+}
 
 
 /* FOOTER */
