@@ -543,6 +543,58 @@ img {
 }
 
 
+
+
+
+
+/* QUOTES */
+
+.quotes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quotes__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 670px;
+
+    padding: 10px 30px;
+    margin: 0px 70px;
+    margin-bottom: 10px;
+    border-left: #8bc34a 4px solid;
+
+    font-size: 15px;
+    color: #747474;
+    text-align: center;
+    line-height: 35px;
+}
+
+.quotes__text_last {
+   color: #333333;
+   font-size: 18px;
+
+   margin-bottom: 15px;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* FOOTER */
 
 
