@@ -10,6 +10,13 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;400&display=swap" rel="stylesheet" />
+
+  <!-- COUNTER -->
+  <!-- <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css"> -->
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <!-- <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css"> -->
 </head>
 
 <body>
@@ -61,17 +68,17 @@
     </section>
   </header>
 
-  <main class="container">
+  <main class="main">
     <!-- ///////////////////////////////////   WELCOME IMG  //////////////////////////////////////////////////// -->
 
     <video class="bg_video" src="img/Pexels Videos 3563.mp4" muted loop autoplay></video>
 
-    <section class="container__welcome_img">
+    <section class="main">
       <div>
         <p>OLVIDARÁS EL ASFALTO</p>
       </div>
     </section>
-    <section class="container__welcome_img--desktop">
+    <section class="main__welcome_img--desktop">
       <div>
         <p>OLVIDARÁS EL ASFALTO</p>
       </div>
@@ -442,7 +449,51 @@
     </section>
 
     <!-- ////// -->
+
+    <!-- COUNTER -->
+
+    <section class="counting">
+
+      <div class="container containerr">
+        <div class="row text-center roww">
+  
+          <div class="coll">
+            <div class="counter">
+              <!-- <i class="fa fa-code fa-2x"></i> -->
+              <p class="counter_plus1 counter_plus"><span><strong>+</strong></span></p>
+              <h2 class="timer count-title count-number" data-to="80" data-speed="1500"></h2>
+              <p class="count-text "><strong>Animales adoptados viven felices en la granja</strong></p>
+            </div>
+          </div>
+  
+          <div class="coll coll2">
+            <div class="counter">
+              <!-- <i class="fa fa-coffee fa-2x"></i> -->
+              <p class="counter_plus2 counter_plus"><span><strong>+</strong></span></p>
+              <h2 class="timer count-title count-number" data-to="10000" data-speed="1500"></h2>
+              <p class="count-text "><strong>Sonrisas de niños dando de comer a CALIFA el caballo.</strong></p>
+            </div>
+          </div>
+  
+          <div class="coll coll3">
+            <div class="counter">
+              <!-- <i class="fa fa-lightbulb-o fa-2x"></i> -->
+              <p class="counter_plus3 counter_plus"><span><strong>+</strong></span></p>
+              <h2 class="timer count-title count-number" data-to="25000" data-speed="1500"></h2>
+              <p class="count-text "><strong>Estrellas que descubrirás sobre la hierba de la pradera.</strong></p>
+            </div>
+          </div>
+  
+         
+        </div>
+      </div>
+
+    </section>
+
+    <!-- /////// -->
   </main>
+
+
 
   <footer class="main__footer">
     <section class="footer__wrap">
@@ -488,6 +539,7 @@
   </footer>
 
   <script src="js/script.js"></script>
+  <script src="js/counter.js"></script>
 </body>
 
 </html>
