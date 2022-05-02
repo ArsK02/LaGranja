@@ -619,7 +619,7 @@ img {
 /* 2 */
 .counter_plus2 {
     position: absolute;
-    margin-left: 50px;
+    margin-left: 40px;
     margin-top: 25px;
 }
 
@@ -689,10 +689,90 @@ img {
 
 
 
+/* FUSION */
+
+.fusion {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    margin: 85px 10px;
+}
+
+.fusionBlock_1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    margin: 10px 25px;
+    padding: 10px 170px;
+
+    min-width: 550px;
+}
+
+.fusionBlock_1 h2 {
+    font-size: 40px;
+    color: #000;
+    margin-left: -140px;
+    margin-top: -5px;
+}
+
+.fusionBlock_list_1 {
+    margin-left: -140px;
+}
+
+.fusionBlock_list_item_1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.fusionBlock_list_item_1 p {
+    font-size: 14px;
+    color: #747474;
+    margin-left: 10px;
+}
+
+
+.fusionBlock_1 {
+    border: 2px rgba(255, 210, 78, 1) SOLID;
+}
+
+/* 2 */
+
+.fusionBlock_2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    margin: 10px 25px;
+    padding: 10px 30px;
+    border: 2px #accc62 SOLID;
+
+    min-width: 550px;
+}
+
+.fusionBlock_2 h2 {
+    font-size: 40px;
+    color: #000;
+    margin-left: -3px;
+    margin-top: -5px;
+}
 
 
 
+.fusionBlock_list_item_2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
 
+.fusionBlock_list_item_2 p {
+    font-size: 14px;
+    color: #747474;
+    margin-left: 10px;
+}
 
 
 
