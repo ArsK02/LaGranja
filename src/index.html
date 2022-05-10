@@ -31,7 +31,7 @@
       </div>
     </section>
 
-    <section class="logo__flex">
+    <section class="logo__flex" id="navbar">
       <nav class="navbar">
         <a href=""><img src="" alt="" /><img src="img/logo.png" alt="top__logo" /></a>
 
@@ -71,14 +71,14 @@
   <main class="main">
     <!-- ///////////////////////////////////   WELCOME IMG  //////////////////////////////////////////////////// -->
 
-    <video class="bg_video" src="img/Pexels Videos 3563.mp4" muted loop autoplay></video>
-
-    <section class="main">
+    <section class="main__welcome_img--mobile">
       <div>
         <p>OLVIDARÁS EL ASFALTO</p>
       </div>
     </section>
+
     <section class="main__welcome_img--desktop">
+      <video class="bg_video" src="img/Pexels Videos 3563.mp4" muted loop autoplay></video>
       <div>
         <p>OLVIDARÁS EL ASFALTO</p>
       </div>
@@ -456,7 +456,7 @@
 
       <div class="container containerr">
         <div class="row text-center roww">
-  
+
           <div class="coll">
             <div class="counter">
               <!-- <i class="fa fa-code fa-2x"></i> -->
@@ -465,7 +465,7 @@
               <p class="count-text "><strong>Animales adoptados viven felices en la granja</strong></p>
             </div>
           </div>
-  
+
           <div class="coll coll2">
             <div class="counter">
               <!-- <i class="fa fa-coffee fa-2x"></i> -->
@@ -474,7 +474,7 @@
               <p class="count-text "><strong>Sonrisas de niños dando de comer a CALIFA el caballo.</strong></p>
             </div>
           </div>
-  
+
           <div class="coll coll3">
             <div class="counter">
               <!-- <i class="fa fa-lightbulb-o fa-2x"></i> -->
@@ -483,8 +483,8 @@
               <p class="count-text "><strong>Estrellas que descubrirás sobre la hierba de la pradera.</strong></p>
             </div>
           </div>
-  
-         
+
+
         </div>
       </div>
 
@@ -547,7 +547,78 @@
 
     <!-- //////////////// -->
 
+    <!-- RATE -->
 
+    <section class="rate">
+
+      <div class="rate_title"><span><strong>ESTO ES LO QUE OPINAN QUIENES YA HAN VIVIDO LA EXPERIENCIA:</strong></span>
+      </div>
+
+
+      <div class="rate_wrap">
+        <div class="rate_block rate__sova">
+
+          <div class="rate__item">
+            <img src="img/sova rate 1.png" width="200" alt="logo sova">
+          </div>
+          <div class="rate__item">
+            <img src="img/sova rate 2.png" width="400" alt="rate">
+          </div>
+          <div class="rate__item">
+            <img src="img/sova rate 3.png" width="400" alt="sheets">
+          </div>
+
+          <div class="rate_b_div">
+            <a class="rate_button" href="#" target="blank"><span>Más opiniones en tripadvisor</span></a>
+          </div>
+
+        </div>
+
+        <div class="rate_block rate__google">
+
+          <div class="rate__item">
+            <img src="img/google review.png" width="400" alt="logo sova">
+          </div>
+          <div class="rate__item">
+            <img src="img/google rate.png" width="400" alt="rate">
+          </div>
+
+          <div class="rate_b_div">
+            <a class="rate_button" href="#" target="blank"><span>Más opiniones en tripadvisor</span></a>
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+
+    <!-- //// -->
+
+    <!-- HEART HOVER -->
+
+    <section class="heart">
+
+      <div class="heart__box">
+        <div class="heart__box_heart">
+          <img src="#" alt="heart">
+        </div>
+        <div class="heart__box_title">
+          <span>ME TEMO QUE SÍ:</span>
+        </div>
+        <div class="heart__box_p">
+          <p><strong>Este plan para niños es a la vez un planazo para ti.</strong></p>
+        </div>
+      </div>
+
+      <div class="socialWhats heart__button">
+        <a href="#" class="socialWhats_button">
+          RESERVA AQUÍ Y VIVE LA EXPERIENCIA
+        </a>
+      </div>
+
+    </section>
+
+    <!-- /////////// -->
 
   </main>
 
@@ -556,12 +627,12 @@
   <footer class="main__footer">
     <section class="footer__wrap">
       <div class="logo__photo">
-        <a href="#"><img src="img/logo__phptp.png" width="150" alt="logo__photo" /></a>
+        <a href="#"><img src="img/logo__phptp.png"  alt="logo__photo" /></a>
       </div>
 
       <div class="footer__links">
         <div class="footer__links-one footer__links-both">
-          <h3>TAMBIÉN TE PROPONEMOS:</h3>
+          <span class="footer__links_span">TAMBIÉN TE PROPONEMOS:</span>
           <hr />
 
           <div class="footer__links-links">
@@ -570,7 +641,7 @@
           </div>
         </div>
         <div class="footer__links-two footer__links-both">
-          <h3>ECHA UN VISTAZO:</h3>
+          <span class="footer__links_span">ECHA UN VISTAZO:</span>
           <hr />
 
           <div class="footer__links-links">
@@ -598,6 +669,7 @@
 
   <script src="js/script.js"></script>
   <script src="js/counter.js"></script>
+  <script src="js/sticky_header.js"></script>
 </body>
 
 </html>
