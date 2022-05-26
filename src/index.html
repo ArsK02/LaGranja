@@ -18,7 +18,7 @@
 
   <!-- <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css"> -->
 
-  
+
 </head>
 
 <body>
@@ -141,9 +141,9 @@
       </div>
 
       <div class="socialWhats">
-        <a href="#" class="socialWhats_button">
-          RESERVA AQUÍ Y VIVE LA EXPERIENCIA
-        </a>
+        <button class="socialWhats_button">
+          <a href="#"> RESERVA AQUÍ Y VIVE LA EXPERIENCIA </a>
+        </button>
       </div>
     </section>
 
@@ -166,7 +166,7 @@
     <!-- PLAYER -->
 
     
-
+    
     <!-- ////// -->
 
     <!-- GREEN NATURAL -->
@@ -621,9 +621,11 @@
       </div>
 
       <div class="socialWhats heart__button">
-        <a href="#" class="socialWhats_button button_hover">
-          RESERVA AQUÍ Y VIVE LA EXPERIENCIA
-        </a>
+        <button class="socialWhats_button button_hover">
+          <a href="#">
+            RESERVA AQUÍ Y VIVE LA EXPERIENCIA
+          </a>
+        </button>
       </div>
 
     </section>
@@ -632,7 +634,16 @@
 
     <!-- TO THE TOP BUTTON -->
 
-    <button onclick="topFunction()" id="myBtn" title="Go to top"><img src="img/top.png" width="20" alt="top"></button>
+    <!-- <button class="back-to-top hidden" id="myBtnkjkjkjkjkjk"><img src="img/top.png" width="20" alt="top"></button>
+ -->
+
+
+    <button class="back-to-top hidden">
+      <svg xmlns="http://www.w3.org/2000/svg" class="back-to-top-icon" fill="none" viewBox="0 0 24 24"
+        stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 11l5-5m0 0l5 5m-5-5v12" />
+      </svg>
+    </button>
 
     <!-- ///////////////// -->
 
@@ -643,7 +654,7 @@
   <footer class="main__footer">
     <section class="footer__wrap">
       <div class="logo__photo">
-        <a href="#"><img src="img/logo__phptp.png"  alt="logo__photo" /></a>
+        <a href="#"><img src="img/logo__phptp.png" alt="logo__photo" /></a>
       </div>
 
       <div class="footer__links">
@@ -687,6 +698,7 @@
   <script src="js/counter.js"></script>
   <script src="js/sticky_header.js"></script>
   <script src="js/toTheTop.js"></script>
+  <script src="js/player.js"></script>
 </body>
 
 </html>
