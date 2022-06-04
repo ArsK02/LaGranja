@@ -1,4 +1,4 @@
-function ReiCalendarImageViewerDialog() { } // namespace
+function ReiCalendarImageViewerDialog() {} // namespace
 
 ReiCalendarImageViewerDialog.displayCalendar = function() {
     if (!$('#calendarContainer').length) {
@@ -39,13 +39,12 @@ ReiCalendarImageViewerDialog.displayCalendar = function() {
             </div><!-- /.modal-content --> \
           </div><!-- /.modal-dialog --> \
         </div><!-- /.modal -->");
-        for (var i = 1; i < arguments.length; i++)
-        {
+        for (var i = 1; i < arguments.length; i++) {
             $('.calendarImages').append("<div><img class='calendarImage'></div>");
             $('.calendarImage:last').attr('src', arguments[i]);
         }
-                
-            
+
+
         $('.calendarImages').slick({
             prevArrow: $('#previousMonth'),
             nextArrow: $('#nextMonth'),
@@ -59,18 +58,17 @@ ReiCalendarImageViewerDialog.displayCalendar = function() {
         for (var index in additionalButtons) {
             var button = additionalButtons[index].split("|");
             if (button[0] == "Enroll Now") {
-            $('#calendarModal .modal-footer').prepend("<a class='button accent' href='" + button[1] + "'>" + button[0] + "</a>");
+                $('#calendarModal .modal-footer').prepend("<a class='button accent' href='" + button[1] + "'>" + button[0] + "</a>");
+            } else {
+                $('#calendarModal .modal-footer').prepend("<a class='button' href='" + button[1] + "'>" + button[0] + "</a>");
             }
-          else {
-              $('#calendarModal .modal-footer').prepend("<a class='button' href='" + button[1] + "'>" + button[0] + "</a>");
-        }
         }
     }
     $('#calendarModal').modal();
-    $('#calendarModal').on('shown.bs.modal', function (e) {
+    $('#calendarModal').on('shown.bs.modal', function(e) {
         $('.calendarImages').resize();
     });
-    $('.modal').scroll(function () {
+    $('.modal').scroll(function() {
         $('.modal-backdrop').css('height', $('.modal')[0].scrollHeight);
     });
 }
