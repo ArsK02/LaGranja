@@ -527,11 +527,15 @@ img {
 
 .brownVideo_video {
     padding: 20px;
-    margin-right: -150px;
+    margin-left: 10px;
 }
 
 .video11 {
     margin-right: -20px;
+}
+
+.playBrown_btn {
+    margin-left: -20px;
 }
 
 
